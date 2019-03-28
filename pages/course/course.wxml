@@ -1,2 +1,46 @@
-<!--pages/course/course.wxml-->
-<text>pages/course/course.wxml</text>
+<!--course.wxml-->
+<view class="container">
+		<view class="item">
+			<view class="left">
+				<i class="icon-user icon-2x logo"></i>
+			</view>
+			<view class="right">
+				<view class="content">
+					<h2 class="name">新的朋友</h2>
+				</view>
+			</view>
+	</view>
+	
+	<view class="item">
+			<view class="left" style="background: #07c160;">
+				<i class="icon-comments-alt icon-2x logo"></i>
+			</view>
+			<view class="right">
+				<view class="content">
+					<h2 class="name">群聊</h2>
+				</view>
+			</view>
+	</view>
+	
+	<view class="item">
+			<view class="left" style="background: #2781d7;">
+				<i class="icon-tag icon-2x logo"></i>
+			</view>
+			<view class="right">
+				<view class="content">
+					<h2 class="name">标签</h2>
+				</view>
+			</view>
+	</view>
+	
+	<view class="item">
+			<view class="left" style="background: #2781d7;">
+				<i class="icon-user icon-2x logo"></i>
+			</view>
+			<view class="right">
+				<view class="content">
+					<h2 class="name">公众号</h2>
+				</view>
+			</view>
+	</view>
+	</view>
