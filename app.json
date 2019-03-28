@@ -1,12 +1,47 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/dyy/dyy",
+    "pages/course/course"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "pink",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "color":"#8a8a8a",
+    "selectedColor":"black",
+    "backgroundColor":"white",
+    "borderStyle":"black",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"image/tabbar/weixin0.png",
+        "selectedIconPath":"image/tabbar/weixin1.png"
+
+      },{
+        "pagePath": "pages/logs/logs",
+        "text": "通讯录",
+        "iconPath": "image/tabbar/tongxunlu0.png",
+        "selectedIconPath": "image/tabbar/tongxunlu1.png"
+      },{
+        "pagePath": "pages/dyy/dyy",
+        "text": "发现",
+        "iconPath": "image/tabbar/faxian0.png",
+        "selectedIconPath": "image/tabbar/faxian1.png"
+      },{
+        "pagePath": "pages/course/course",
+        "text": "我",
+        "iconPath": "image/tabbar/wo0.png",
+        "selectedIconPath": "image/tabbar/wo1.png"
+      }
+    ]
+
   }
 }
